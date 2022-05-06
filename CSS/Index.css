@@ -1,39 +1,37 @@
-/* Universal box sizing */
-
 * {
-
     box-sizing: border-box;
-
 }
 
-/* Set the size of the body */
-
 body {
-
-    width: 600px;
-
+    max-width: 1200px;
+    background-color: #f6e6ae;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* Style the header */
 
-.header {
-
+header {
     background-color: green;
-
     text-align: center;
-
     padding: 20px;
-
+    height: 100px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Style the top navigation bar */
 
 .topnav {
-
-    overflow: hidden;
-
     background-color: black;
-
+    max-width: 1200px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Style the topnav links */
@@ -52,38 +50,22 @@ body {
 
 }
 
-/* Create two equal columns that float next to each other */
-
-.column {
-
-    float: left;
-
-    width: 300px;
-
-    padding: 15px;
-
-    background-color: wheat;
-
+.whakatauki {
+    background-color: white;
 }
 
-/* Clear floats after the columns */
+.image-whakatauki {}
 
-.row:after {
-
-    content: "";
-
-    display: table;
-
-    clear: both;
-
+.what-about {
+    background-color: white;
 }
 
 .footer {
-
     background-color: green;
-
     text-align: center;
-
     padding: 10px;
-
+    height: 100px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
