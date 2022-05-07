@@ -22,6 +22,7 @@ header {
     font-size: 2vw;
 }
 
+
 /* Style the top navigation bar */
 
 .topnav {
@@ -50,6 +51,29 @@ header {
     grid-template-columns: auto auto;
 }
 
+.map {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.map-content {
+    font-size: 1.5em;
+    background-color: white;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+
+.contact-us {
+    margin: auto;
+    padding: 1.5em;
+    background-color: white;
+    font-size: 1.5rem;
+}
+
+
 .whakatauki {
     background-color: white;
     width: 100%;
@@ -62,7 +86,6 @@ header {
 
 .image-tauki {
     max-width: 100%;
-    margin: 25px;
 }
 
 .what-about {
@@ -79,6 +102,8 @@ header {
     max-width: 100%;
     margin: 25px;
 }
+
+
 
 .footer {
     font-size: 1vw;
